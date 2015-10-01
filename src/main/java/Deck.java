@@ -18,11 +18,19 @@ public class Deck {
 			cards.add(new Card(i + 1, suitValue));
 		}
 	}
-	
+
 	public Card getCardFromTop() {
 		Card card = cards.get(0);
 		cards.remove(0);
 		return card;
+	}
+
+	public boolean isEmpty() {
+		if (cards.size() == 0) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 }
