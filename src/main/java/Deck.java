@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Deck {
+public class Deck extends CardGroup {
 
 	private ArrayList<Card> cards;
 
@@ -16,20 +16,6 @@ public class Deck {
 	private void createCardsOfSuit(ArrayList<Card> cards, SuitValue suitValue) {
 		for (int i = 0; i < 13; i++) {
 			cards.add(new Card(i + 1, suitValue));
-		}
-	}
-
-	public Card getCardFromTop() {
-		Card card = cards.get(0);
-		cards.remove(0);
-		return card;
-	}
-
-	public boolean isEmpty() {
-		if (cards.size() == 0) {
-			return true;
-		} else {
-			return false;
 		}
 	}
 
