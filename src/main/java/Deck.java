@@ -3,8 +3,6 @@ import java.util.Collections;
 
 public class Deck extends CardGroup {
 
-	private ArrayList<Card> cards;
-
 	public Deck() {
 		createCardsOfSuit(cards, SuitValue.HEARTS);
 		createCardsOfSuit(cards, SuitValue.TILES);

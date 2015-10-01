@@ -2,13 +2,21 @@ import java.util.ArrayList;
 
 public abstract class CardGroup {
 
-	private ArrayList<Card> cards;
-	
-	public Card getCardFromTop() {
+	protected ArrayList<Card> cards;
+
+	public Card popCardFromTop() {
 		Card card = null;
 		if (!this.isEmpty()) {
 			card = cards.get(0);
 			cards.remove(0);
+		}
+		return card;
+	}
+
+	public Card getCardFromTop() {
+		Card card = null;
+		if (!this.isEmpty()) {
+			card = cards.get(0);
 		}
 		return card;
 	}
@@ -20,4 +28,9 @@ public abstract class CardGroup {
 			return false;
 		}
 	}
+
+	public int size() {
+		return this.cards.size();
+	}
+
 }
