@@ -3,6 +3,10 @@ import java.util.ArrayList;
 public abstract class CardGroup {
 
 	protected ArrayList<Card> cards;
+	
+	public CardGroup() {
+		cards = new ArrayList<Card>();
+	}
 
 	public Card popCardFromTop() {
 		Card card = null;

@@ -2,7 +2,7 @@ public class RankView {
 
 	public RankView(Rank[] rank) {
 		for (int i = 0; i < rank.length; i++) {
-			System.out.print("Rank number " + i);
+			System.out.print("Rank number " + (i + 1) + ": ");
 			if (rank[i].size() == 0) {
 				System.out.print("<empty>");
 				System.out.println("");

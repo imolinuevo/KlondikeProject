@@ -21,6 +21,9 @@ public class Board {
 		}
 		rank = new Rank[RANKS];
 		for (int i = 0; i < rank.length; i++) {
+			rank[i] = new Rank();
+		}
+		for (int i = 0; i < rank.length; i++) {
 			rank[i].firstDeal(i, deck);
 		}
 	}

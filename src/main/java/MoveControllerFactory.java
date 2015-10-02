@@ -3,7 +3,7 @@ public class MoveControllerFactory {
 	private Board board;
 
 	private MoveController moveController;
-	
+
 	private MenuController menuController;
 
 	public MoveControllerFactory(Board board) {
@@ -11,9 +11,7 @@ public class MoveControllerFactory {
 		this.menuController = new MenuController();
 	}
 
-	public void setMoveAction() {
-		new MenuView(menuController).render();
-		int menuOption = menuController.getMenuOption();
+	public void setMoveAction(int menuOption) {
 		switch (menuOption) {
 		case 1:
 			moveController = new MoveFromDeckToDrawController();
@@ -40,9 +38,12 @@ public class MoveControllerFactory {
 	}
 
 	public MoveController getController() {
-		if (board.isEndOfTheGame()){
+		if (board.isEndOfTheGame()) {
 			return null;
 		}
+		new MenuView(menuController, board).render();
+		int menuOption = menuController.getMenuOption();
+		setMoveAction(menuOption);
 		return moveController;
 	}
 

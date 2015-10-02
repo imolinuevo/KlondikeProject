@@ -1,14 +1,18 @@
 import java.util.Scanner;
 
 public class MenuView {
+	
+	private Board board;
 
 	private MenuController menuController;
 
-	public MenuView(MenuController menuController) {
+	public MenuView(MenuController menuController, Board board) {
 		this.menuController = menuController;
+		this.board = board;
 	}
 
 	public void render() {
+		new BoardView(board).render();
 		System.out.println("--------------------------");
 		System.out.println("1. Move from deck to draw");
 		System.out.println("2. Move from draw to suit");

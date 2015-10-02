@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Random;
 
 public class Deck extends CardGroup {
 
@@ -8,7 +9,11 @@ public class Deck extends CardGroup {
 		createCardsOfSuit(cards, SuitValue.TILES);
 		createCardsOfSuit(cards, SuitValue.CLOVERS);
 		createCardsOfSuit(cards, SuitValue.PIKES);
-		Collections.shuffle(cards);
+		Random random = new Random(cards.size());  
+
+		for(int index = 0; index < cards.size(); index += 1) {  
+		    Collections.swap(cards, index, index + random.nextInt(cards.size() - index));  
+		}
 	}
 
 	private void createCardsOfSuit(ArrayList<Card> cards, SuitValue suitValue) {
@@ -16,5 +21,6 @@ public class Deck extends CardGroup {
 			cards.add(new Card(i + 1, suitValue));
 		}
 	}
+	
 
 }
