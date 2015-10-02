@@ -1,6 +1,6 @@
-public class MoveFfromRankToRankView {
+public class MoveFromRankToRankView {
 
-	public MoveFfromRankToRankView(
+	public MoveFromRankToRankView(
 			MoveFromRankToRankController moveFfromRankToRankController) {
 		// TODO Auto-generated constructor stub
 	}

@@ -39,7 +39,7 @@ public class GameView {
 
 	public void atender(
 			MoveFromRankToRankController moveFfromRankToRankController) {
-		new MoveFfromRankToRankView(moveFfromRankToRankController).render();
+		new MoveFromRankToRankView(moveFfromRankToRankController).render();
 	}
 
 	public void atender(
