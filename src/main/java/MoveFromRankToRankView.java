@@ -1,8 +1,10 @@
 public class MoveFromRankToRankView {
+	
+	private MoveFromRankToRankController moveFfromRankToRankController;
 
 	public MoveFromRankToRankView(
 			MoveFromRankToRankController moveFfromRankToRankController) {
-		// TODO Auto-generated constructor stub
+		this.moveFfromRankToRankController = moveFfromRankToRankController;
 	}
 
 	public void render() {

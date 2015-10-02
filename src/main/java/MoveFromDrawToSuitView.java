@@ -1,8 +1,10 @@
 public class MoveFromDrawToSuitView {
+	
+	private MoveFromDrawToSuitController moveFromDrawToSuitController;
 
 	public MoveFromDrawToSuitView(
 			MoveFromDrawToSuitController moveFromDrawToSuitController) {
-		// TODO Auto-generated constructor stub
+		this.moveFromDrawToSuitController = moveFromDrawToSuitController;
 	}
 
 	public void render() {

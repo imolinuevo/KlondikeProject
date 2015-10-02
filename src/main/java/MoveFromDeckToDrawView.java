@@ -1,13 +1,15 @@
 public class MoveFromDeckToDrawView {
 
+	private MoveFromDeckToDrawController moveFromDeckToDrawController;
+
 	public MoveFromDeckToDrawView(
 			MoveFromDeckToDrawController moveFromDeckToDrawController) {
-		// TODO Auto-generated constructor stub
+		this.moveFromDeckToDrawController = moveFromDeckToDrawController;
 	}
 
 	public void render() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }

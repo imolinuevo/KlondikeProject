@@ -1,13 +1,15 @@
 public class MoveFromSuitToRankView {
 
+	private MoveFromSuitToRankController moveFromSuitToRankController;
+
 	public MoveFromSuitToRankView(
 			MoveFromSuitToRankController moveFromSuitToRankController) {
-		// TODO Auto-generated constructor stub
+		this.moveFromSuitToRankController = moveFromSuitToRankController;
 	}
 
 	public void render() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }
