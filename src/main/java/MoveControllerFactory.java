@@ -3,12 +3,17 @@ public class MoveControllerFactory {
 	private Board board;
 
 	private MoveController moveController;
+	
+	private MenuController menuController;
 
 	public MoveControllerFactory(Board board) {
 		this.board = board;
+		this.menuController = new MenuController();
 	}
 
-	public void setMoveAction(int menuOption) {
+	public void setMoveAction() {
+		new MenuView(menuController).render();
+		int menuOption = menuController.getMenuOption();
 		switch (menuOption) {
 		case 1:
 			moveController = new MoveFromDeckToDrawController();
