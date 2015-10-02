@@ -41,4 +41,9 @@ public class Board {
 		return rank;
 	}
 
+	public boolean isEndOfTheGame() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
