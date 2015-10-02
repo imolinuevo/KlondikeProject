@@ -14,22 +14,22 @@ public class MoveControllerFactory {
 	public void setMoveAction(int menuOption) {
 		switch (menuOption) {
 		case 1:
-			moveController = new MoveFromDeckToDrawController();
+			moveController = new MoveFromDeckToDrawController(board);
 			break;
 		case 2:
-			moveController = new MoveFromDrawToSuitController();
+			moveController = new MoveFromDrawToSuitController(board);
 			break;
 		case 3:
-			moveController = new MoveFromDrawToRankController();
+			moveController = new MoveFromDrawToRankController(board);
 			break;
 		case 4:
-			moveController = new MoveFromRankToSuitController();
+			moveController = new MoveFromRankToSuitController(board);
 			break;
 		case 5:
-			moveController = new MoveFfromRankToRankController();
+			moveController = new MoveFromRankToRankController(board);
 			break;
 		case 6:
-			moveController = new MoveFromSuitToRankController();
+			moveController = new MoveFromSuitToRankController(board);
 			break;
 		default:
 			assert false;

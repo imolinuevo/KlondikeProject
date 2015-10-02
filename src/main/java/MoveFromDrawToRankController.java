@@ -1,9 +1,12 @@
 public class MoveFromDrawToRankController extends MoveController {
 
+	protected MoveFromDrawToRankController(Board board) {
+		super(board);
+	}
+
 	@Override
 	public void recibir(GameView gameView) {
-		// TODO Auto-generated method stub
-		
+		gameView.atender(this);
 	}
 
 }

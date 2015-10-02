@@ -38,7 +38,7 @@ public class GameView {
 	}
 
 	public void atender(
-			MoveFfromRankToRankController moveFfromRankToRankController) {
+			MoveFromRankToRankController moveFfromRankToRankController) {
 		new MoveFfromRankToRankView(moveFfromRankToRankController).render();
 	}
 
