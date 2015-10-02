@@ -7,9 +7,9 @@ public class Board {
 	private Suit[] suit;
 
 	private Rank[] rank;
-	
+
 	public final int SUITS = 4;
-	
+
 	public final int RANKS = 7;
 
 	public Board() {
@@ -45,8 +45,9 @@ public class Board {
 	}
 
 	public boolean isEndOfTheGame() {
-		// TODO Auto-generated method stub
+		if (suit[0].isFull() && suit[1].isFull() && suit[2].isFull() && suit[4].isFull()) {
+			return true;
+		}
 		return false;
 	}
-
 }
