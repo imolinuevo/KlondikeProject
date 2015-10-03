@@ -8,8 +8,10 @@ public class MoveFromDeckToDrawView {
 	}
 
 	public void render() {
-		// TODO Auto-generated method stub
-
+		if(moveFromDeckToDrawController.getBoard().getDraw() == null) {
+			moveFromDeckToDrawController.getBoard().setDraw();
+		} else {
+			System.out.println("There is already a draw.");
+		}
 	}
-
 }

@@ -5,4 +5,8 @@ public class Rank extends CardGroup {
 			cards.add(deck.popCardFromTop());
 		}
 	}
+
+	public void addCard(Card card) {
+		this.cards.add(0, card);
+	}
 }

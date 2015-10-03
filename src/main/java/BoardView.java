@@ -20,6 +20,6 @@ public class BoardView {
 		new SuitView(board.getSuit(1), SuitValue.TILES);
 		new SuitView(board.getSuit(2), SuitValue.CLOVERS);
 		new SuitView(board.getSuit(3), SuitValue.PIKES);
-		new RankView(board.getRank());
+		new RankView(board.getAllRanks());
 	}
 }
