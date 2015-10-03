@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="Klondike" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/Klondike.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="250" x="3" y="99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="Board" project="KlondikeProject" file="/KlondikeProject/src/main/java/Board.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="159" x="394" y="77"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="GameView" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/GameView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="252" x="-56" y="331"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="MoveControllerFactory" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MoveControllerFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="176" x="344" y="522"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="Card" project="KlondikeProject" file="/KlondikeProject/src/main/java/Card.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="142" x="723" y="21"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="Deck" project="KlondikeProject" file="/KlondikeProject/src/main/java/Deck.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="275" x="665" y="233"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="Rank" project="KlondikeProject" file="/KlondikeProject/src/main/java/Rank.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="848" y="432"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="Suit" project="KlondikeProject" file="/KlondikeProject/src/main/java/Suit.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="142" x="717" y="558"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="MenuController" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MenuController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="120" x="118" y="757"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="MoveController" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MoveController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="606" y="828"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="11" language="java" name="SuitValue" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/SuitValue.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1128" y="516"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="12" language="java" name="CardGroup" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/CardGroup.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="142" x="1057" y="44"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="MoveFromDeckToDrawController" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MoveFromDeckToDrawController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="980" y="924"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="MoveFromDeckToDrawView" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MoveFromDeckToDrawView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1326" y="932"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="BoardView" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/BoardView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="282" y="76"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="MenuView" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MenuView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="48" y="650"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="MoveFromDrawToRankController" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MoveFromDrawToRankController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1016" y="736"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="MoveFromDrawToRankView" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MoveFromDrawToRankView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1352" y="748"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="MoveFromDrawToSuitController" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MoveFromDrawToSuitController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1362" y="554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="MoveFromDrawToSuitView" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MoveFromDrawToSuitView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1694" y="560"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="MoveFromRankToRankController" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MoveFromRankToRankController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1396" y="358"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="MoveFromRankToRankView" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MoveFromRankToRankView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1736" y="328"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="MoveFromRankToSuitController" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MoveFromRankToSuitController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1414" y="152"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="MoveFromRankToSuitView" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MoveFromRankToSuitView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1754" y="126"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="MoveFromSuitToRankController" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MoveFromSuitToRankController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="976" y="1092"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="MoveFromSuitToRankView" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/MoveFromSuitToRankView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1320" y="1082"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="RankView" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/RankView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="114" x="243" y="990"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="SuitView" project="KlondikeProject" 
+    file="/KlondikeProject/src/main/java/SuitView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="102" y="992"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="29">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="30">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="31">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="32" name="moveFromSuitToRankController"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="34">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="35" name="board"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="37">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="38">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <dependency id="39">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="40">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="41">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="42" name="deck"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="44">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="45">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="46" name="moveFromRankToRankController"/>      
+      <multiplicity id="47" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="48">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="49">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <association id="50">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="51" name="board"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="53">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <association id="54">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="55" name="suitValue"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="57">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="58" name="gameView"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="61" name="moveController"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="63">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <generalization id="64">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="65">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="66" name="rank"/>      
+      <multiplicity id="67" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="68">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="69" name="suit"/>      
+      <multiplicity id="70" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="71">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="72" name="menuController"/>      
+      <multiplicity id="73" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="74">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <dependency id="75">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="76">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="77" name="menuController"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="79">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="80">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="81">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="82">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="83" name="cards"/>      
+      <multiplicity id="84" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="86" name="moveFromDeckToDrawController"/>      
+      <multiplicity id="87" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="88">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <dependency id="89">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="90">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="91">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="92" name="moveFromDrawToRankController"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="94">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="95">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="96" name="moveControllerFactory"/>      
+      <multiplicity id="97" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="98">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="99" name="suitValue"/>      
+      <multiplicity id="100" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="101">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="102">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="103" name="draw"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="105">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <dependency id="106">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <generalization id="107">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <dependency id="108">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <generalization id="109">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="110">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="111" name="moveFromDrawToSuitController"/>      
+      <multiplicity id="112" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="113">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="114" name="board"/>      
+      <multiplicity id="115" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="116">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="117" name="moveFromRankToSuitController"/>      
+      <multiplicity id="118" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="119">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="120">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="121" name="moveControllerFactory"/>      
+      <multiplicity id="122" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="123">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="124">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="125" name="board"/>      
+      <multiplicity id="126" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="127">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="128">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="129" name="board"/>      
+      <multiplicity id="130" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
