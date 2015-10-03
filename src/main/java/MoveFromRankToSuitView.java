@@ -28,6 +28,26 @@ public class MoveFromRankToSuitView {
 			destinySuit = in.nextInt();
 		} while (destinySuit < 1 || destinySuit > 4);
 		destinySuit--;
-		
+		if (!moveFromRankToSuitController.getRank(originRank).isEmpty()) {
+			if (moveFromRankToSuitController.getSuit(destinySuit).isEmpty()) {
+				moveFromRankToSuitController.moveCardFromRankToSuit(originRank,
+						destinySuit);
+			} else {
+				if ((moveFromRankToSuitController.getRank(originRank)
+						.getCardFromTop().getSuitValue() == moveFromRankToSuitController
+						.getSuit(destinySuit).getCardFromTop().getSuitValue())
+						&& (moveFromRankToSuitController.getRank(originRank)
+								.getCardFromTop().getValue() == moveFromRankToSuitController
+								.getSuit(destinySuit).getCardFromTop()
+								.getValue() + 1)) {
+					moveFromRankToSuitController.moveCardFromRankToSuit(
+							originRank, destinySuit);
+				} else {
+					System.out.println("Invalid movement.");
+				}
+			}
+		} else {
+			System.out.println("Selected rank is empty.");
+		}
 	}
 }
