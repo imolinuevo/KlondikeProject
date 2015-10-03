@@ -9,4 +9,16 @@ public class MoveFromSuitToRankController extends MoveController {
 		gameView.atender(this);
 	}
 
+	public Suit getSuit(int suitValue) {
+		return board.getSuit(suitValue);
+	}
+
+	public Rank getRank(int rankValue) {
+		return board.getRank(rankValue);
+	}
+
+	public void moveCardFromSuitToRank(int originSuit, int destinyRank) {
+		board.getRank(destinyRank).addCard(board.getSuit(originSuit).popCardFromTop());
+	}
+
 }
