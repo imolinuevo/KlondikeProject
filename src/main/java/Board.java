@@ -50,7 +50,7 @@ public class Board {
 	}
 
 	public boolean isEndOfTheGame() {
-		if (suit[0].isFull() && suit[1].isFull() && suit[2].isFull() && suit[4].isFull()) {
+		if (suit[0].isFull() && suit[1].isFull() && suit[2].isFull() && suit[3].isFull()) {
 			return true;
 		}
 		return false;
