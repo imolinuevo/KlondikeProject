@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class MenuView {
-	
+
 	private Board board;
 
 	private MenuController menuController;

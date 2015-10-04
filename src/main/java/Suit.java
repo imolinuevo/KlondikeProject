@@ -1,7 +1,7 @@
 public class Suit extends CardGroup {
 
 	private SuitValue suitValue;
-	
+
 	public Suit(SuitValue suitValue) {
 		this.suitValue = suitValue;
 	}
@@ -13,7 +13,7 @@ public class Suit extends CardGroup {
 			return false;
 		}
 	}
-	
+
 	public SuitValue getSuitValue() {
 		return this.suitValue;
 	}

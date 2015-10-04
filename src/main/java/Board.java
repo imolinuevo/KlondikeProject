@@ -36,7 +36,7 @@ public class Board {
 	public Card getDraw() {
 		return draw;
 	}
-	
+
 	public void setDraw() {
 		this.draw = this.deck.popCardFromTop();
 	}
@@ -50,7 +50,8 @@ public class Board {
 	}
 
 	public boolean isEndOfTheGame() {
-		if (suit[0].isFull() && suit[1].isFull() && suit[2].isFull() && suit[3].isFull()) {
+		if (suit[0].isFull() && suit[1].isFull() && suit[2].isFull()
+				&& suit[3].isFull()) {
 			return true;
 		}
 		return false;
@@ -58,7 +59,7 @@ public class Board {
 
 	public void setDrawNull() {
 		this.draw = null;
-		
+
 	}
 
 	public Rank[] getAllRanks() {

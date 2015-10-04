@@ -1,5 +1,5 @@
 public class MenuController {
-	
+
 	private int menuOption;
 
 	public void control(int menuOption) {

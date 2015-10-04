@@ -18,7 +18,8 @@ public class MoveFromSuitToRankController extends MoveController {
 	}
 
 	public void moveCardFromSuitToRank(int originSuit, int destinyRank) {
-		board.getRank(destinyRank).addCard(board.getSuit(originSuit).popCardFromTop());
+		board.getRank(destinyRank).addCard(
+				board.getSuit(originSuit).popCardFromTop());
 	}
 
 }

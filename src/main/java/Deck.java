@@ -9,10 +9,11 @@ public class Deck extends CardGroup {
 		createCardsOfSuit(cards, SuitValue.TILES);
 		createCardsOfSuit(cards, SuitValue.CLOVERS);
 		createCardsOfSuit(cards, SuitValue.PIKES);
-		Random random = new Random(cards.size());  
+		Random random = new Random(cards.size());
 
-		for(int index = 0; index < cards.size(); index += 1) {  
-		    Collections.swap(cards, index, index + random.nextInt(cards.size() - index));  
+		for (int index = 0; index < cards.size(); index += 1) {
+			Collections.swap(cards, index,
+					index + random.nextInt(cards.size() - index));
 		}
 	}
 
@@ -21,6 +22,5 @@ public class Deck extends CardGroup {
 			cards.add(new Card(i + 1, suitValue));
 		}
 	}
-	
 
 }

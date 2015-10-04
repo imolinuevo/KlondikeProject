@@ -8,7 +8,7 @@ public class MoveFromDeckToDrawView {
 	}
 
 	public void render() {
-		if(moveFromDeckToDrawController.getBoard().getDraw() == null) {
+		if (moveFromDeckToDrawController.getBoard().getDraw() == null) {
 			moveFromDeckToDrawController.getBoard().setDraw();
 		} else {
 			System.out.println("There is already a draw.");

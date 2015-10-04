@@ -16,7 +16,7 @@ public class Card {
 	public SuitValue getSuitValue() {
 		return suitValue;
 	}
-	
+
 	public char getColor() {
 		return this.suitValue.getValue();
 	}
